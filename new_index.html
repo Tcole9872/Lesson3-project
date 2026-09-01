@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Challenge - Before Refactoring</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- STUDENT NOTE: Your job is to refactor this HTML!
+     - Remove all inline styles
+     - Use semantic tags instead of divs
+     - Create an external CSS file
+     - Fix the head section
+-->
+
+<header>
+    <h1 class="CSS Challenge">CSS Challenge</h1>
+    <p>Learn web design with modern CSS and HTML</p>
+</header>
+
+<section class="secnav">
+    <nav class="nav">
+        <a class="herfborderT" href="index.html">Home</a>
+        <a class="herfborderT "href="about.html">About</a>
+        <a class="herfborderF" href="contact.html">Contact</a>
+    </nav>
+</section>
+
+<main class="main">
+    <section class="secpara">
+        <h2 class="welcomechallenge">Welcome to the Challenge</h2>
+        <p>This page is intentionally poorly formatted. Your job is to:</p>
+        <p class="para">
+            1. Remove all inline styles<br>
+            2. Use semantic HTML tags (header, nav, main, section, footer)<br>
+            3. Create an external CSS file<br>
+            4. Fix the head section with proper meta tags
+        </p>
+    </section>
+
+    <section class="sectable">
+        <h2 class="webdestopic">Web Design Topics</h2>
+        <p>Here's a table with learning resources:</p>
+        <table class="table">
+            <tr class="table-header">
+                <th class="table-cell1">Topic</th>
+                <th class="table-cell1">Resource</th>
+                <th class="table-cell1">Level</th>
+            </tr>
+            <tr class="table-row1">
+                <td class="table-cell2">HTML Basics</td>
+                <td class="table-cell2">MDN Docs</td>
+                <td class="table-cell2">Beginner</td>
+            </tr>
+            <tr class="table-row2">
+                <td class="table-cell2">CSS Layout</td>
+                <td class="table-cell2">CSS-Tricks</td>
+                <td class="table-cell2">Intermediate</td>
+            </tr>
+            <tr class="table-row1">
+                <td class="table-cell2">Responsive Design</td>
+                <td class="table-cell2">Web.dev</td>
+                <td class="table-cell2">Intermediate</td>
+            </tr>
+            <tr class="table-row2">
+                <td class="table-cell2">Web Performance</td>
+                <td class="table-cell2">Google Docs</td>
+                <td class="table-cell2">Advanced</td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<section style="background-color: white; padding: 20px; margin: 20px; border-left: 4px solid #1abc9c; border-radius: 4px;">
+    <h3 style="color: #2c3e50; margin-bottom: 15px;">Related Links</h3>
+    <ul style="list-style: none;">
+        <li style="margin-bottom: 8px;"><a href="#" style="color: #1abc9c; text-decoration: none;">CSS Tricks</a></li>
+        <li style="margin-bottom: 8px;"><a href="#" style="color: #1abc9c; text-decoration: none;">MDN Web Docs</a></li>
+        <li style="margin-bottom: 8px;"><a href="#" style="color: #1abc9c; text-decoration: none;">Web.dev</a></li>
+    </ul>
+</section>
+
+<footer style="background-color: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px;">
+    <p>&copy; 2024 CSS Challenge. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
